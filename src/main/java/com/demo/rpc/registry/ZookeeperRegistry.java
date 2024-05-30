@@ -31,7 +31,7 @@ public class ZookeeperRegistry<T> implements Registry<T> {
 
     private ServiceCache<T> serviceCache;
 
-    private String address = "localhost:2181";
+    private String address = "172.19.100.13:2181";
 
     public void start() throws Exception {
         String root = "/demo/rpc";
